@@ -1,0 +1,39 @@
+.introdection{font-size: 70px;padding-left: 16%;color: red;background-color: black}
+.about_me{margin-left: 67%;font-size: 40px;}
+.about_me a{color: black;text-decoration: none;font-weight: bold;}
+.about_me::after{color: black;text-decoration: none;font-weight: bold;animation: abou 7s ease infinite;}
+@keyframes abou{ from {transform: rotate(0turn);} to {transform: rotate(3turn);}}
+.image_a img{
+    width: 200px; /* Adjust the size as needed */
+    height: 200px; /* Adjust the size as needed */
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image covers the entire circle */
+}
+.heading2{color: violet;animation: loading 6s infinite;}
+@keyframes loading {
+    0% {
+        color: #3498db;
+    }
+    25% {
+        color: #e74c3c;
+    }
+    50% {
+        color: #f1c40f;
+    }
+    75% {
+        color: #2ecc71;
+    }
+    100% {
+        color: #3498db;
+    }
+}
+.heading1{color: tomato;}
+.contact{margin-left: 67%;font-size: 40px;}
+.contact a{color: black;text-decoration: none;font-weight: bold;background-color: red;}
+.my_contact{color: tomato;margin-left: 40%;}
+.phone_number{color: blueviolet;margin-left: 20%;}
+.number{background-color: black;color: white;margin-left: 20%;}
+.email{color: blueviolet;margin-left: 20%;}
+.hassan{color: white;background-color: black;margin-left: 20%;}
+
+body{background: linear-gradient(red,black)}
